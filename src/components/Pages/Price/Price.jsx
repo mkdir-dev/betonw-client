@@ -4,9 +4,9 @@ import PriceList from './PriceList/PriceList';
 
 function Price() {
   return (
-    <>
+    <section>
       <PriceList />
-    </>
+    </section>
   );
 }
 

@@ -7,12 +7,12 @@ import Booking from './Booking/Booking';
 
 function Home() {
   return (
-    <>
+    <section>
       <Intro />
       <Advantages />
       <Demonstration />
       <Booking />
-    </>
+    </section>
   );
 }
 
