@@ -20,3 +20,27 @@ code {
   background-color: #101725;
   color: #dfba30;
 }
+
+@media (max-width: 1400px) {
+  .root {
+    margin: 0 60px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .root {
+    margin: 0 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .root {
+    margin: 0 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .root {
+    margin: 0 15px;
+  }
+}
