@@ -1,22 +1,69 @@
 @import "../../../../assets/styles/main.scss";
 
-.container-contacts {
+.container-priceList {
   width: 100%;
   max-width: 1280px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 30px;
+  align-items: center;
 
-  & > article:first-child {
-    padding: 50px;
+  &__header {
+    padding: 15px;
+    display: flex;
+    gap: 570px;
 
-    & > h1:first-child {
+    @media (max-width: 768px) {
+      gap: 420px;
+    }
+  
+    @media (max-width: 480px) {
+      gap: 150px;
+    }
+
+    &-title {
       @include title;
     }
+
+    &-btnOrder {
+      @include mainText;
+      width: 150px;
+      border-radius: 25px;
+      background-color: $gray;
+      font-weight: bold;
+      
+    }
   }
-  
-  &__subtitle {
-    @include subtitle;
+
+
+
+  &__table {
+    @include mainText;
+    border: 1px solid $gray;
+    border-collapse: collapse;
+    
+    & > thead:first-child {
+      @include subtitle;
+      text-align: center;
+    }
+
+    & th {
+      @include mainText;
+      padding: 10px;
+      border: 1px solid $gray;
+      font-weight: bold;
+    }
+    
+    & td {
+      padding: 10px;
+      border: 1px solid $gray;
+      color: $white;
+    }
+  }
+
+  &__table_name {
+    border: none;
+    text-align: center;
+    font-weight: bold;
   }
 }
