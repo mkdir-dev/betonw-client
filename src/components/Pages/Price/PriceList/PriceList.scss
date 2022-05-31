@@ -3,6 +3,7 @@
 .container-priceList {
   width: 100%;
   max-width: 1280px;
+  margin-top: 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -29,17 +30,15 @@
       @include mainText;
       width: 150px;
       border-radius: 25px;
-      background-color: $gray;
+      background-color: $grayblue;
       font-weight: bold;
       
     }
   }
 
-
-
   &__table {
     @include mainText;
-    border: 1px solid $gray;
+    border: 1px solid $grayblue;
     border-collapse: collapse;
     
     & > thead:first-child {
@@ -50,13 +49,13 @@
     & th {
       @include mainText;
       padding: 10px;
-      border: 1px solid $gray;
+      border: 1px solid $grayblue;
       font-weight: bold;
     }
     
     & td {
       padding: 10px;
-      border: 1px solid $gray;
+      border: 1px solid $grayblue;
       color: $white;
     }
   }
