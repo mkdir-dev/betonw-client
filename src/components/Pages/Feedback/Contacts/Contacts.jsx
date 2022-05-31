@@ -7,7 +7,7 @@ function Contacts() {
     <section className="container-contacts">
       <article>
         <h1>КОНТАКТНАЯ ИНФОРМАЦИЯ</h1>
-        <div>
+        <div className="container-contacts__subtitle">
           <p>«Beton-W»</p>
           <p>г. Екатеринбург, ул. Циолковского, 29</p>
           <p>тел. +7 (701) 77 76 811</p>
