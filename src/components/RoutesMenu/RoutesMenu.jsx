@@ -10,27 +10,25 @@ import Feedback from '../Pages/Feedback/Feedback';
 
 function RoutesMenu() {
   return (
-    <>
-      <Routes>
-        <Route
-          exact
-          path="/"
-          element={<Home />}
-        />
+    <Routes>
+      <Route
+        exact
+        path="/"
+        element={<Home />}
+      />
 
-        <Route
-          exact
-          path="/price"
-          element={<Price />}
-        />
+      <Route
+        exact
+        path="/price"
+        element={<Price />}
+      />
 
-        <Route
-          exact
-          path="/contacts"
-          element={<Feedback />}
-        />
-      </Routes>
-    </>
+      <Route
+        exact
+        path="/contacts"
+        element={<Feedback />}
+      />
+    </Routes>
   );
 }
 
