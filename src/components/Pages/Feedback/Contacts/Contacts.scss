@@ -1,0 +1,24 @@
+@import "../../../../assets/styles/main.scss";
+
+.container-contacts {
+  width: 100%;
+  max-width: 1280px;
+  margin-top: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  & > article:first-child {
+    padding: 50px;
+
+    & > h1:first-child {
+      @include title;
+    }
+  }
+  
+  &__subtitle {
+    @include subtitle;
+  }
+}

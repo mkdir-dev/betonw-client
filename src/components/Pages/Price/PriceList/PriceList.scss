@@ -1,0 +1,68 @@
+@import "../../../../assets/styles/main.scss";
+
+.container-priceList {
+  width: 100%;
+  max-width: 1280px;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__header {
+    padding: 15px;
+    display: flex;
+    gap: 570px;
+
+    @media (max-width: 768px) {
+      gap: 420px;
+    }
+  
+    @media (max-width: 480px) {
+      gap: 150px;
+    }
+
+    &-title {
+      @include title;
+    }
+
+    &-btnOrder {
+      @include mainText;
+      width: 150px;
+      border-radius: 25px;
+      background-color: $grayblue;
+      font-weight: bold;
+      
+    }
+  }
+
+  &__table {
+    @include mainText;
+    border: 1px solid $grayblue;
+    border-collapse: collapse;
+    
+    & > thead:first-child {
+      @include subtitle;
+      text-align: center;
+    }
+
+    & th {
+      @include mainText;
+      padding: 10px;
+      border: 1px solid $grayblue;
+      font-weight: bold;
+    }
+    
+    & td {
+      padding: 10px;
+      border: 1px solid $grayblue;
+      color: $white;
+    }
+  }
+
+  &__table_name {
+    border: none;
+    text-align: center;
+    font-weight: bold;
+  }
+}
