@@ -35,6 +35,10 @@
     color: $main;
   }
 
+  &__address {
+    @include mainText;
+  }
+  
   &__tel, &__mail {
     & a:first-child {
       @include mainText;
