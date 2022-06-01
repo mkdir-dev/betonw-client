@@ -1,0 +1,49 @@
+@import "../../assets/styles/main.scss";
+
+.footer {
+  background-color: $yellow;
+  border-radius: 20px 20px 0px 0px;
+  margin-top: 74px;
+
+  &__container {
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    color: $main;
+  }
+
+  &__logo-wrap {
+    display: flex;
+  }
+
+  &__logo {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background-color: $main;
+  }
+
+  &__name {
+    @include logo;
+    margin: 0;
+    color: $main;
+  }
+
+  &__tel-first, &__tel-second, &__mail {
+    & a:nth-child(2) {
+      @include mainText;
+      padding: 5px 10px;
+      color: $main;
+
+      border-radius: 25px;
+      text-decoration: none;
+      transition: $transition;
+
+      &:hover {
+        background-color: $white;
+        text-decoration: none;
+      }
+    }
+  }
+}
