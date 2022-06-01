@@ -2,6 +2,9 @@ import React from 'react';
 
 import './Contacts.scss';
 
+import telegram from '../../../../assets/images/icon-telegram.png';
+import whatsapp from '../../../../assets/images/icon-whatsapp.png';
+
 function Contacts() {
   return (
     <section className="container-contacts">
@@ -12,18 +15,29 @@ function Contacts() {
           <p>ИП Михайлов</p>
           <p>г. Екатеринбург, ул. Циолковского, 29, офис 4</p>
           <div className="container-contacts__subtitle-telAndEmail">
-            <p>тел. +7 (953) 38 56 934 </p>
-            <a href="tel:+79533856934">
-              Позвонить
-            </a>
+            <p>beton-w@mail.ru</p>
+            <a href="mailto:beton-w@mail.ru">Написать письмо</a>
           </div>
           <div className="container-contacts__subtitle-telAndEmail">
-            <p>beton-w@mail.ru</p>
-            <a href="mailto:beton-w@mail.ru">
-              Написать письмо
+            <p>тел. +7 (953) 38 56 934 </p>
+            <a href="tel:+79533856934">Позвонить</a>
+          </div>
+          <div className="container-contacts__subtitle-messengers">
+            <a href="https://wa.me/+79533856934">
+              <img
+                src={telegram}
+                alt="telegram"
+                className="container-contacts__subtitle-telegram"
+              />
+            </a>
+            <a href="https://wa.me/+79533856934">
+              <img
+                src={whatsapp}
+                alt="whatsapp"
+                className="container-contacts__subtitle-whatsapp"
+              />
             </a>
           </div>
-
         </div>
       </article>
       <iframe

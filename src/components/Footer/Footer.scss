@@ -4,11 +4,17 @@
   background-color: $yellow;
   border-radius: 20px 20px 0px 0px;
   margin-top: 74px;
+  flex: 0 0 auto;
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
 
   &__container {
     padding: 20px 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     color: $main;
   }
 
@@ -30,11 +36,16 @@
     color: $main;
   }
 
-  &__tel-first, &__mail {
-    margin-bottom: 10px;
+  &__tel, &__mail {
     & a:first-child {
       @include mainText;
       color: $main;
     }
   }
+
+  &__messengers {
+    display: flex;
+    gap: 20px;
+  }
+
 }
