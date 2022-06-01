@@ -5,14 +5,26 @@ import './MainBtn.scss';
 function MainBtn({
   text,
   href,
+  mainColor,
+  bgcColor,
+  addColor,
 }) {
   return (
     <button
       type="button"
       className="mainBtn"
+      style={{
+        color: mainColor,
+        borderColor: mainColor,
+        backgroundColor: bgcColor,
+        backgroundImage: `linear-gradient(45deg, ${addColor} 50%, transparent 50%)`,
+      }}
     >
       <a
         href={href}
+        style={{
+          color: mainColor,
+        }}
       >
         {text}
       </a>

@@ -1,5 +1,9 @@
 import React from 'react';
+
 import './PriceList.scss';
+
+import MainBtn from '../../../../ui/buttons/MainBtn/MainBtn';
+
 import {
   titleTable,
   nameTable,
@@ -12,11 +16,13 @@ function PriceList() {
     <section className="container-priceList">
       <article className="container-priceList__header">
         <h1 className="container-priceList__header-title">Прайс лист</h1>
-        <button type="button" className="container-priceList__header-btnOrder">
-          <a href="tel:+79533856934">
-            Заказать
-          </a>
-        </button>
+        <MainBtn
+          href="tel:+79533856934"
+          text="Заказать"
+          mainColor="#101725"
+          bgcColor="#90a7ad"
+          addColor="#dfba30"
+        />
       </article>
       <table className="container-priceList__table">
         <thead>

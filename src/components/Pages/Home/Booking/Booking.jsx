@@ -10,6 +10,9 @@ function Booking() {
       <MainBtn
         href="tel:+79533856934"
         text="Сделать заказ"
+        mainColor="#101725"
+        bgcColor="transparent"
+        addColor="#dfba30"
       />
     </section>
   );
