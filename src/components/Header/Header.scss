@@ -33,6 +33,7 @@
 
   &__nav-items {
     display: flex;
+    align-items: center;
     flex-direction: row;
     margin: 0;
     padding: 0;
@@ -63,6 +64,48 @@
     &:hover {
       background-color: $white;
       text-decoration: none;
+    }
+  }
+
+  &__btn {
+    max-width: 200px;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    border: 1px solid;
+    border-radius: 0.6em;
+    background-position: 100%;
+    background-size: 400%;
+    appearance: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: $transition;
+
+    color: $main;
+    border-color: $main;
+    background-color: $white;
+    background-image: linear-gradient(45deg, $yellow 50%, transparent 50%);
+
+    &:hover,
+    &:focus {
+      color: $white;
+      outline: 0;
+    }
+
+    &:hover {
+      background-position: 0;
+    }
+
+    &>a {
+      @include mainText;
+
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 2px;
+      text-decoration: none;
+      padding: 3px 5px;
     }
   }
 }
