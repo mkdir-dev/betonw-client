@@ -2,7 +2,7 @@ import React from 'react';
 
 function Advantages() {
   return (
-    <section>
+    <section className="advantages">
       <p>Advantages</p>
     </section>
   );
