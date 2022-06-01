@@ -26,14 +26,27 @@ function Header() {
                 <NavLink
                   to={page.path}
                   className={`header__navlink
-                    ${location.pathname === page.path
-                    ? 'header__navlink_active' : ''}
+                    ${location.pathname === page.path ? 'header__navlink_active' : ''}
                   `}
                 >
                   {page.title}
                 </NavLink>
               </li>
             ))}
+            <li
+              className="header__nav-item"
+            >
+              <button
+                type="button"
+                className="header__btn"
+              >
+                <a
+                  href="tel:+79533856934"
+                >
+                  Заказать
+                </a>
+              </button>
+            </li>
           </ul>
         </nav>
       </div>
