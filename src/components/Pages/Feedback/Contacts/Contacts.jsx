@@ -18,12 +18,6 @@ function Contacts() {
             </a>
           </div>
           <div className="container-contacts__subtitle-telAndEmail">
-            <p>тел. +7 (952) 74 10 505</p>
-            <a href="tel:+79527410505">
-              Позвонить
-            </a>
-          </div>
-          <div className="container-contacts__subtitle-telAndEmail">
             <p>beton-w@mail.ru</p>
             <a href="mailto:beton-w@mail.ru">
               Написать письмо

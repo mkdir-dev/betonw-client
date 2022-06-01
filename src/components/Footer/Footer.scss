@@ -30,20 +30,11 @@
     color: $main;
   }
 
-  &__tel-first, &__tel-second, &__mail {
-    & a:nth-child(2) {
+  &__tel-first, &__mail {
+    margin-bottom: 10px;
+    & a:first-child {
       @include mainText;
-      padding: 5px 10px;
       color: $main;
-
-      border-radius: 25px;
-      text-decoration: none;
-      transition: $transition;
-
-      &:hover {
-        background-color: $white;
-        text-decoration: none;
-      }
     }
   }
 }

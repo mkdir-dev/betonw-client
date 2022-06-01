@@ -16,22 +16,14 @@ function Footer() {
         </div>
         <div className="footer__tel">
           <div className="footer__tel-first">
-            <p>тел. +7 (953) 38 56 934 </p>
             <a href="tel:+79533856934">
-              Позвонить
-            </a>
-          </div>
-          <div className="footer__tel-second">
-            <p>тел. +7 (952) 74 10 505</p>
-            <a href="tel:+79527410505">
-              Позвонить
+              тел. +7 (953) 38 56 934
             </a>
           </div>
         </div>
         <div className="footer__mail">
-          <p>beton-w@mail.ru</p>
           <a href="mailto:beton-w@mail.ru">
-            Написать письмо
+            beton-w@mail.ru
           </a>
         </div>
       </div>
