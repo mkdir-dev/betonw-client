@@ -1,7 +1,4 @@
-@import './fontFase.scss';
-
 @mixin head {
-  font-family: "Montserrat";
   font-weight: 500;
   font-size: 48px;
   line-height: 64px;
@@ -18,21 +15,18 @@
 }
 
 @mixin title {
-  font-family: "Montserrat";
-  font-weight: 700;
+  font-weight: 500;
   font-size: 20px;
   line-height: 24px;
 }
 
 @mixin subtitle {
-  font-family: "Montserrat";
-  font-weight: 800;
+  font-weight: 900;
   font-size: 16px;
   line-height: 19px;
 }
 
 @mixin logo {
-  font-family: "Montserrat";
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
@@ -49,8 +43,7 @@
 }
 
 @mixin mainText {
-  font-family: "Montserrat";
-  font-weight: 700;
+  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
 
@@ -66,21 +59,18 @@
 }
 
 @mixin listMainText {
-  font-family: "Montserrat";
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
 }
 
 @mixin smallBtnText {
-  font-family: "Montserrat";
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
 }
 
 @mixin caption {
-  font-family: "Montserrat";
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
