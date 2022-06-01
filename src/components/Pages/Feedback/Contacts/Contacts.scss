@@ -2,7 +2,6 @@
 
 .container-contacts {
   width: 100%;
-  height: 70vh;
   max-width: 1280px;
   margin-top: 74px;
   display: flex;
@@ -10,6 +9,18 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 30px;
+
+  @media (max-width: 1024px) {
+    margin-top: 50px;
+  }
+
+  @media (max-width: 768px) {
+    margin-top: 35px;
+  }
+
+  @media (max-width: 480px) {
+    margin-top: 20px;
+  }
 
   & > article:first-child {
     padding: 30px;
@@ -21,6 +32,11 @@
   
   &__subtitle {
     @include subtitle;
+  }
+
+  &__subtitle-messengers {
+    display: flex;
+    gap: 30px;
   }
 
   &__subtitle-telAndEmail {
@@ -40,5 +56,10 @@
         box-shadow: 0 0 10px 5px $yellow;
       }
     }
+  }
+
+  &__subtitle-telegram, &__subtitle-whatsapp {
+    width: 24px;
+    height: 24px;
   }
 }
