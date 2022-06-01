@@ -9,9 +9,27 @@ function Contacts() {
         <h1>КОНТАКТНАЯ ИНФОРМАЦИЯ</h1>
         <div className="container-contacts__subtitle">
           <p>«Beton-W»</p>
-          <p>г. Екатеринбург, ул. Циолковского, 29</p>
-          <p>тел. +7 (701) 77 76 811</p>
-          <p>beton-w@mail.ru</p>
+          <p>ИП Михайлов</p>
+          <p>г. Екатеринбург, ул. Циолковского, 29, офис 4</p>
+          <div className="container-contacts__subtitle-telAndEmail">
+            <p>тел. +7 (953) 38 56 934 </p>
+            <a href="tel:+79533856934">
+              Позвонить
+            </a>
+          </div>
+          <div className="container-contacts__subtitle-telAndEmail">
+            <p>тел. +7 (952) 74 10 505</p>
+            <a href="tel:+79527410505">
+              Позвонить
+            </a>
+          </div>
+          <div className="container-contacts__subtitle-telAndEmail">
+            <p>beton-w@mail.ru</p>
+            <a href="mailto:beton-w@mail.ru">
+              Написать письмо
+            </a>
+          </div>
+
         </div>
       </article>
       <iframe

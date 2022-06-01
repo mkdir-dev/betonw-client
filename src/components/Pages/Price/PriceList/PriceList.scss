@@ -32,6 +32,10 @@
       border-radius: 25px;
       background-color: $grayblue;
       font-weight: bold;
+      & a:first-child {
+        text-decoration: none;
+        color: $main;
+      }
       
     }
   }
