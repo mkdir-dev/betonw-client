@@ -3,7 +3,7 @@ export const titleTable = {
   properties: 'Свойства',
   price: 'Цена, руб./м3, с НДС/ в зачет за рейсы',
   VAT: 'НДС',
-  cash: 'Наличка',
+  cash: 'Наличные',
 };
 
 export const nameTable = {
