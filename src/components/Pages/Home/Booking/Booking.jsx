@@ -2,14 +2,15 @@ import React from 'react';
 
 import './Booking.scss';
 
+import MainBtn from '../../../../ui/buttons/MainBtn/MainBtn';
+
 function Booking() {
   return (
     <section className="booking">
-      <button type="button" className="container-priceList__header-btnOrder">
-        <a href="tel:+79533856934">
-          Заказать
-        </a>
-      </button>
+      <MainBtn
+        href="tel:+79533856934"
+        text="Сделать заказ"
+      />
     </section>
   );
 }
