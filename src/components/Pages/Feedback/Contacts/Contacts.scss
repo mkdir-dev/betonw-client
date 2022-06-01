@@ -11,7 +11,7 @@
   gap: 30px;
 
   & > article:first-child {
-    padding: 50px;
+    padding: 30px;
 
     & > h1:first-child {
       @include title;
@@ -20,5 +20,16 @@
   
   &__subtitle {
     @include subtitle;
+  }
+
+  &__subtitle-telAndEmail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & a:nth-child(2) {
+      text-decoration: none;
+      color: $yellow;
+    }
   }
 }

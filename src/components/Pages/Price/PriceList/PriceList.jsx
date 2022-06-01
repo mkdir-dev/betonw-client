@@ -13,7 +13,9 @@ function PriceList() {
       <article className="container-priceList__header">
         <h1 className="container-priceList__header-title">Прайс лист</h1>
         <button type="button" className="container-priceList__header-btnOrder">
-          Заказать
+          <a href="tel:+79533856934">
+            Заказать
+          </a>
         </button>
       </article>
       <table className="container-priceList__table">
