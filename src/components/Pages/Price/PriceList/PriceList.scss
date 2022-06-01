@@ -12,18 +12,19 @@
   &__header {
     padding: 15px;
     display: flex;
-    gap: 570px;
+    gap: 520px;
 
     @media (max-width: 768px) {
-      gap: 420px;
+      gap: 370px;
     }
   
     @media (max-width: 480px) {
-      gap: 150px;
+      gap: 50px;
     }
 
     &-title {
       @include title;
+      width: 220px;
     }
 
     &-btnOrder {
