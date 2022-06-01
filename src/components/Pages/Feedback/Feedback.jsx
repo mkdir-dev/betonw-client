@@ -4,9 +4,7 @@ import Contacts from './Contacts/Contacts';
 
 function Feedback() {
   return (
-    <section>
-      <Contacts />
-    </section>
+    <Contacts />
   );
 }
 
