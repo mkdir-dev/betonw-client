@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/label-has-associated-control */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 
@@ -49,6 +51,27 @@ function Header() {
             </li>
           </ul>
         </nav>
+
+        <div className="hamburger-menu">
+          <input id="menu__toggle" type="checkbox" />
+          <label className="menu__btn" htmlFor="menu__toggle">
+            <span />
+          </label>
+          <ul className="menu__box">
+            {pages.map((page) => (
+              <li
+                key={page.id}
+              >
+                <NavLink
+                  to={page.path}
+                  className="menu__item"
+                >
+                  {page.title}
+                </NavLink>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </header>
   );
