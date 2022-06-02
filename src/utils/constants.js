@@ -54,8 +54,8 @@ export const contactInfo = {
   address: 'г. Екатеринбург, ул. Циолковского, 29, офис 4',
   tel: '+7 (953) 385 6934',
   telLink: 'tel:+79533856934',
-  telegram: 'tg://resolve',
-  whatsapp: 'https://wa.me/9118660326',
+  telegram: 'https://t.me/+79533856934',
+  whatsapp: 'https://wa.me/9533856934',
   mail: 'beton-w@mail.ru',
   mailLink: 'mailto:beton-w@mail.ru',
 };
