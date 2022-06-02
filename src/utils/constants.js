@@ -46,3 +46,12 @@ export const advantages = [
     text: 'Широкий ассортимент',
   },
 ];
+
+export const contactInfo = {
+  ie: 'ИП Михайлов',
+  address: 'г. Екатеринбург, ул. Циолковского, 29, офис 4',
+  tel: '+7 (953) 385 6934',
+  telLink: 'tel:+79533856934',
+  mail: 'beton-w@mail.ru',
+  mailLink: 'mailto:beton-w@mail.ru',
+};

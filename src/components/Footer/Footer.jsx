@@ -5,6 +5,8 @@ import './Footer.scss';
 import telegram from '../../assets/images/icon-telegram.png';
 import whatsapp from '../../assets/images/icon-whatsapp.png';
 
+import { contactInfo } from '../../utils/constants';
+
 function Footer() {
   return (
     <footer className="footer">
@@ -14,18 +16,18 @@ function Footer() {
           <h2 className="footer__name">Beton-W</h2>
         </div>
         <div className="footer__address">
-          <p>ИП Михайлов</p>
-          <p>г. Екатеринбург, ул. Циолковского, 29, офис 4</p>
+          <p>{contactInfo.ie}</p>
+          <p>{contactInfo.address}</p>
         </div>
         <div className="footer__contacts">
           <div className="footer__tel">
-            <a href="tel:+79533856934">
-              тел. +7 (953) 38 56 934
+            <a href={contactInfo.telLink}>
+              {contactInfo.tel}
             </a>
           </div>
           <div className="footer__mail">
-            <a href="mailto:beton-w@mail.ru">
-              beton-w@mail.ru
+            <a href={contactInfo.mailLink}>
+              {contactInfo.mail}
             </a>
           </div>
         </div>

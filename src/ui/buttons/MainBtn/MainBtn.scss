@@ -6,6 +6,8 @@
   height: 50px;
   display: flex;
   align-self: center;
+  justify-content: center;
+  align-items: center;
   border: 2px solid;
   border-radius: 0.6em;
   background-position: 100%;
@@ -29,9 +31,6 @@
     @include logo;
 
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding-bottom: 2px;
     text-decoration: none;
   }
