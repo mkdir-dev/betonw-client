@@ -28,6 +28,14 @@ function RoutesMenu() {
         path="/contacts"
         element={<Feedback />}
       />
+
+      {/*
+      <Route path="*">
+        <Home />
+      </Route>
+      */}
+
+      <Route path="*" element={<Home />} />
     </Routes>
   );
 }
