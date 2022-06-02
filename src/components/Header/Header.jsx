@@ -1,10 +1,10 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 
 import './Header.scss';
 
+import LittleBtn from '../../ui/buttons/LittleBtn/LittleBtn';
 import { pages } from '../../utils/constants';
 
 function Header() {
@@ -38,23 +38,23 @@ function Header() {
             <li
               className="header__nav-item"
             >
-              <button
-                type="button"
-                className="header__btn"
-              >
-                <a
-                  href="tel:+79533856934"
-                >
-                  Заказать
-                </a>
-              </button>
+              <LittleBtn
+                text="Заказать"
+                href="tel:+79533856934"
+                mainColor="#101725"
+                bgcColor="#e7ead6"
+                addColor="#dfba30"
+              />
             </li>
           </ul>
         </nav>
 
         <div className="hamburger-menu">
           <input id="menu__toggle" type="checkbox" />
-          <label className="menu__btn" htmlFor="menu__toggle">
+          <label
+            className="menu__btn"
+            htmlFor="menu__toggle"
+          >
             <span />
           </label>
           <ul className="menu__box">
