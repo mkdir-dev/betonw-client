@@ -2,13 +2,11 @@ import React from 'react';
 
 import './Demonstration.scss';
 
-import photo1 from '../../../../assets/images/cars/20220221_162030.jpg';
-import photo2 from '../../../../assets/images/cars/IMG_20220530_163328.jpg';
-import photo3 from '../../../../assets/images/cars/20210724_152448.jpg';
-import photo4 from '../../../../assets/images/cars/IMG_20220530_163312.jpg';
-import photo5 from '../../../../assets/images/cars/IMG_20220530_162902.jpg';
-
-//
+import photo1 from '../../../../assets/images/cars/photo1.jpg';
+import photo2 from '../../../../assets/images/cars/photo2.jpg';
+import photo3 from '../../../../assets/images/cars/photo3.jpg';
+import photo4 from '../../../../assets/images/cars/photo4.jpg';
+import photo5 from '../../../../assets/images/cars/photo5.jpg';
 
 const photos = [
   {
