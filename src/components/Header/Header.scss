@@ -177,6 +177,18 @@
   cursor: pointer;
   z-index: 1;
   right: 50px;
+
+  &::after {
+    content: "";
+    position: relative;
+    right: 10px;
+    max-width: 80px;
+    width: 100%;
+    padding: 23px;
+    background-color: #dfba30;
+    border-radius: 50%;
+    z-index: -1;
+  }
 }
 
 /* добавляем "гамбургер" */
@@ -226,6 +238,10 @@
   font-size: 20px;
   font-weight: 600;
   text-decoration: none;
+
+  &_active {
+    text-decoration: underline;
+  }
 }
 
 .menu__item:hover {

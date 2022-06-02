@@ -64,7 +64,9 @@ function Header() {
               >
                 <NavLink
                   to={page.path}
-                  className="menu__item"
+                  className={`menu__item
+                    ${location.pathname === page.path ? 'menu__item_active' : ''}
+                  `}
                 >
                   {page.title}
                 </NavLink>
