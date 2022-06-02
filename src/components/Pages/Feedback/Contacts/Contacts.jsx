@@ -7,50 +7,46 @@ import LittleBtn from '../../../../ui/buttons/LittleBtn/LittleBtn';
 import telegram from '../../../../assets/images/icon-telegram.png';
 import whatsapp from '../../../../assets/images/icon-whatsapp.png';
 
+import { contactInfo } from '../../../../utils/constants';
+
 function Contacts() {
   return (
     <section className="container-contacts">
       <article>
-        <h1>КОНТАКТНАЯ ИНФОРМАЦИЯ</h1>
+        <h1>{contactInfo.title}</h1>
         <div className="container-contacts__subtitle">
-          <p>«Beton-W»</p>
-          <p>ИП Михайлов</p>
-          <p>г. Екатеринбург, ул. Циолковского, 29, офис 4</p>
+          <p>{contactInfo.nameFirm}</p>
+          <p>{contactInfo.ie}</p>
+          <p>{contactInfo.address}</p>
           <div className="container-contacts__subtitle-telAndEmail">
-            <p>beton-w@mail.ru</p>
-            {
-              // <a href="mailto:beton-w@mail.ru">Написать письмо</a>
-            }
+            <p>{contactInfo.mail}</p>
             <LittleBtn
               text="Написать"
-              href="mailto:beton-w@mail.ru"
+              href={contactInfo.mailLink}
               mainColor="#101725"
               bgcColor="#e7ead6"
               addColor="#dfba30"
             />
           </div>
           <div className="container-contacts__subtitle-telAndEmail">
-            <p>тел. +7 (953) 38 56 934 </p>
-            {
-              // <a href="tel:+79533856934">Позвонить</a>
-            }
+            <p>{contactInfo.tel}</p>
             <LittleBtn
               text="Заказать"
-              href="tel:+79533856934"
+              href={contactInfo.telLink}
               mainColor="#101725"
               bgcColor="#e7ead6"
               addColor="#dfba30"
             />
           </div>
           <div className="container-contacts__subtitle-messengers">
-            <a href="https://wa.me/+79533856934">
+            <a href={contactInfo.telegram}>
               <img
                 src={telegram}
                 alt="telegram"
                 className="container-contacts__subtitle-telegram"
               />
             </a>
-            <a href="https://wa.me/+79533856934">
+            <a href={contactInfo.whatsapp}>
               <img
                 src={whatsapp}
                 alt="whatsapp"

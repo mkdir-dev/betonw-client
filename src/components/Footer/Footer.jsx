@@ -32,14 +32,14 @@ function Footer() {
           </div>
         </div>
         <div className="footer__messengers">
-          <a href="https://wa.me/+79533856934">
+          <a href={contactInfo.telegram}>
             <img
               src={telegram}
               alt="telegram"
               className="container-contacts__subtitle-telegram"
             />
           </a>
-          <a href="https://wa.me/+79533856934">
+          <a href={contactInfo.whatsapp}>
             <img
               src={whatsapp}
               alt="whatsapp"
