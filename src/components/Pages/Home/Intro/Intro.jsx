@@ -4,8 +4,10 @@ import './Intro.scss';
 
 import MainBtn from '../../../../ui/buttons/MainBtn/MainBtn';
 
-import city from '../../../../assets/images/city.png';
+// import city from '../../../../assets/images/city.png';
 import cars from '../../../../assets/images/cars.png';
+import city from './city.png';
+// import cars from './cars.png';
 
 function Intro() {
   return (
