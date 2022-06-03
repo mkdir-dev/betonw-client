@@ -18,7 +18,7 @@ export const concreteMix = [
     properties: 'W 4 F 75',
     price: '2700,00',
     VAT: '2700,00',
-    cash: '2400,00',
+    cash: '2600,00',
   },
   {
     id: '2',
@@ -26,7 +26,7 @@ export const concreteMix = [
     properties: 'W 4 F 75',
     price: '2900,00',
     VAT: '2900,00',
-    cash: '2600,00',
+    cash: '2800,00',
   },
   {
     id: '3',
@@ -34,7 +34,7 @@ export const concreteMix = [
     properties: 'W 4-6 F 75-100',
     price: '3250,00',
     VAT: '3250,00',
-    cash: '2900,00',
+    cash: '3100,00',
   },
   {
     id: '4',
@@ -42,7 +42,7 @@ export const concreteMix = [
     properties: 'W 4-6 F 75-100',
     price: '3550,00',
     VAT: '3550,00',
-    cash: '3100,00',
+    cash: '3300,00',
   },
   {
     id: '5',
@@ -50,7 +50,7 @@ export const concreteMix = [
     properties: 'топинг',
     price: '3700,00',
     VAT: '3700,00',
-    cash: '3450,00',
+    cash: '3650,00',
   },
   {
     id: '6',
@@ -58,7 +58,7 @@ export const concreteMix = [
     properties: 'W 6-8 F 75-150',
     price: '3700,00',
     VAT: '3700,00',
-    cash: '3450,00',
+    cash: '3650,00',
   },
   {
     id: '7',
@@ -66,7 +66,7 @@ export const concreteMix = [
     properties: 'топинг',
     price: '4000,00',
     VAT: '4000,00',
-    cash: '3600,00',
+    cash: '3800,00',
   },
   {
     id: '8',
@@ -74,7 +74,7 @@ export const concreteMix = [
     properties: 'W 6-8 F 75-150',
     price: '4050,00',
     VAT: '4050,00',
-    cash: '3750,00',
+    cash: '3950,00',
   },
   {
     id: '9',
@@ -82,7 +82,7 @@ export const concreteMix = [
     properties: 'топинг',
     price: '4200,00',
     VAT: '4200,00',
-    cash: '3900,00',
+    cash: '4100,00',
   },
   {
     id: '10',
@@ -90,7 +90,7 @@ export const concreteMix = [
     properties: 'W 6-8 F 75-150',
     price: '4350,00',
     VAT: '4350,00',
-    cash: '4000,00',
+    cash: '4200,00',
   },
   {
     id: '11',
@@ -98,7 +98,7 @@ export const concreteMix = [
     properties: 'W 6-8 F 75-150',
     price: '4700,00',
     VAT: '4700,00',
-    cash: '4250,00',
+    cash: '4450,00',
   },
 ];
 
@@ -109,7 +109,7 @@ export const concreteSolution = [
     properties: 'W 6-8 F 75-150',
     price: '2750,00',
     VAT: '2750,00',
-    cash: '2500,00',
+    cash: '2700,00',
   },
   {
     id: '13',
@@ -117,7 +117,7 @@ export const concreteSolution = [
     properties: 'W 6-8 F 75-150',
     price: '2850,00',
     VAT: '2850,00',
-    cash: '2600,00',
+    cash: '2800,00',
   },
   {
     id: '14',
@@ -125,7 +125,7 @@ export const concreteSolution = [
     properties: 'W 4-6 F 75-150',
     price: '3100,00',
     VAT: '3100,00',
-    cash: '2900,00',
+    cash: '3100,00',
   },
   {
     id: '15',
@@ -133,7 +133,7 @@ export const concreteSolution = [
     properties: 'W 6-8 F 75-150',
     price: '3400,00',
     VAT: '3400,00',
-    cash: '3100,00',
+    cash: '3300,00',
   },
   {
     id: '16',
@@ -141,7 +141,7 @@ export const concreteSolution = [
     properties: 'W 4-6 F 75-150',
     price: '3700,00',
     VAT: '3700,00',
-    cash: '3300,00',
+    cash: '3500,00',
   },
   {
     id: '17',
@@ -149,6 +149,6 @@ export const concreteSolution = [
     properties: 'W 6-8 F 75-150',
     price: '3700,00',
     VAT: '3700,00',
-    cash: '3450,00',
+    cash: '3650,00',
   },
 ];

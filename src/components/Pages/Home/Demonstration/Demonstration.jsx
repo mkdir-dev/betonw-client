@@ -6,7 +6,7 @@ import photo1 from '../../../../assets/images/cars/photo1.jpg';
 import photo2 from '../../../../assets/images/cars/photo2.jpg';
 import photo3 from '../../../../assets/images/cars/photo3.jpg';
 import photo4 from '../../../../assets/images/cars/photo4.jpg';
-import photo5 from '../../../../assets/images/cars/photo5.jpg';
+import photo5 from '../../../../assets/images/cars/photo6.png';
 
 const photos = [
   {

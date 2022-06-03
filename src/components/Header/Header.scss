@@ -227,6 +227,10 @@
   text-align: center;
   background-color: $white;
   box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+
+  &_active {
+    visibility: visible;
+  }
 }
 
 /* элементы меню */
@@ -262,6 +266,8 @@
   transform: rotate(90deg);
 }
 
+/*
 #menu__toggle:checked~.menu__box {
   visibility: visible;
 }
+*/

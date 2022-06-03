@@ -2,6 +2,7 @@ import React from 'react';
 import {
   Routes,
   Route,
+  Navigate,
 } from 'react-router-dom';
 
 import Home from '../Pages/Home/Home';
@@ -27,6 +28,11 @@ function RoutesMenu() {
         exact
         path="/contacts"
         element={<Feedback />}
+      />
+
+      <Route
+        path="*"
+        element={<Navigate to="/" />}
       />
     </Routes>
   );

@@ -1,5 +1,7 @@
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
 /* eslint-disable jsx-a11y/label-has-associated-control */
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 
 import './Header.scss';
@@ -9,6 +11,7 @@ import { pages } from '../../utils/constants';
 
 function Header() {
   const location = useLocation();
+  const [menuBox, setMenuBox] = useState(false);
 
   return (
     <header className="header">
@@ -50,14 +53,21 @@ function Header() {
         </nav>
 
         <div className="hamburger-menu">
-          <input id="menu__toggle" type="checkbox" />
+          <input id="menu__toggle" type="checkbox" checked={menuBox} />
           <label
             className="menu__btn"
             htmlFor="menu__toggle"
+            onClick={() => {
+              if (menuBox) {
+                setMenuBox(false);
+              } else {
+                setMenuBox(true);
+              }
+            }}
           >
             <span />
           </label>
-          <ul className="menu__box">
+          <ul className={menuBox ? 'menu__box menu__box_active' : 'menu__box'}>
             {pages.map((page) => (
               <li
                 key={page.id}
@@ -67,6 +77,13 @@ function Header() {
                   className={`menu__item
                     ${location.pathname === page.path ? 'menu__item_active' : ''}
                   `}
+                  onClick={() => {
+                    if (menuBox) {
+                      setMenuBox(false);
+                    } else {
+                      setMenuBox(true);
+                    }
+                  }}
                 >
                   {page.title}
                 </NavLink>
