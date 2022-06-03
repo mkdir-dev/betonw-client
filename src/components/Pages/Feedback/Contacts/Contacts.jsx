@@ -31,7 +31,7 @@ function Contacts() {
           <div className="container-contacts__subtitle-telAndEmail">
             <p>{contactInfo.tel}</p>
             <LittleBtn
-              text="Заказать"
+              text="Позвонить"
               href={contactInfo.telLink}
               mainColor="#101725"
               bgcColor="#e7ead6"
