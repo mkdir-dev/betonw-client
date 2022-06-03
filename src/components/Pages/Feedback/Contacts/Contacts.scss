@@ -37,12 +37,22 @@
   &__subtitle-messengers {
     display: flex;
     gap: 30px;
+
+    @media (max-width: 435px){
+      margin-top: 10px;
+      justify-content: center;
+      align-items: center;
+    }
   }
 
   &__subtitle-telAndEmail {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+    @media (max-width: 435px){
+      flex-direction: column;
+    }
   }
 
   &__subtitle-telegram, &__subtitle-whatsapp {

@@ -30,10 +30,20 @@ function RoutesMenu() {
         element={<Feedback />}
       />
 
+<<<<<<< HEAD
       <Route
         path="*"
         element={<Navigate to="/" />}
       />
+=======
+      {/*
+      <Route path="*">
+        <Home />
+      </Route>
+      */}
+
+      <Route path="*" element={<Home />} />
+>>>>>>> e498ac3eae2cdad6f30bd597ed15204e95411f4f
     </Routes>
   );
 }
