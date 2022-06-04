@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/betonw-client/static/css/main.e9428207.css",
-    "main.js": "/betonw-client/static/js/main.82a2b78e.js",
+    "main.js": "/betonw-client/static/js/main.cc0d8f81.js",
     "static/media/photo3.jpg": "/betonw-client/static/media/photo3.6dc65da748e7f158e168.jpg",
     "static/media/photo1.jpg": "/betonw-client/static/media/photo1.9bdb7761abb4d9c256bb.jpg",
     "static/media/photo2.jpg": "/betonw-client/static/media/photo2.f253070b8c0158ede37c.jpg",
@@ -13,10 +13,10 @@
     "static/media/icon-telegram.png": "/betonw-client/static/media/icon-telegram.e9722f26cc228e817986.png",
     "index.html": "/betonw-client/index.html",
     "main.e9428207.css.map": "/betonw-client/static/css/main.e9428207.css.map",
-    "main.82a2b78e.js.map": "/betonw-client/static/js/main.82a2b78e.js.map"
+    "main.cc0d8f81.js.map": "/betonw-client/static/js/main.cc0d8f81.js.map"
   },
   "entrypoints": [
     "static/css/main.e9428207.css",
-    "static/js/main.82a2b78e.js"
+    "static/js/main.cc0d8f81.js"
   ]
 }
