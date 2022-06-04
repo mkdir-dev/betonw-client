@@ -5,8 +5,6 @@ import './Advantages.scss';
 import { advantages } from '../../../../utils/constants';
 
 function Advantages() {
-  // console.log(advantages);
-
   return (
     <section className="advantages">
       <h2 className="advantages__title">Наши преимущества</h2>
