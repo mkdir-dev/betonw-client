@@ -1,6 +1,6 @@
 @import "normalize";
 
-html{
+html {
   height: 100%;
 }
 
@@ -18,14 +18,18 @@ code {
     monospace;
 }
 
+.page {
+  height: 100%;
+  background-color: #101725;
+  color: #dfba30;
+}
+
 .root {
   margin: 0 auto;
   max-width: 1280px;
   height: 100%;
   display: flex;
   flex-direction: column;
-  background-color: #101725;
-  color: #dfba30;
 }
 
 main {
