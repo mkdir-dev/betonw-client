@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/betonw-client/static/css/main.e9428207.css",
-    "main.js": "/betonw-client/static/js/main.cc0d8f81.js",
-    "static/media/photo3.jpg": "/betonw-client/static/media/photo3.6dc65da748e7f158e168.jpg",
-    "static/media/photo1.jpg": "/betonw-client/static/media/photo1.9bdb7761abb4d9c256bb.jpg",
-    "static/media/photo2.jpg": "/betonw-client/static/media/photo2.f253070b8c0158ede37c.jpg",
-    "static/media/photo4.jpg": "/betonw-client/static/media/photo4.7292f69c293a1d2cc28e.jpg",
-    "static/media/photo6.png": "/betonw-client/static/media/photo6.94158f5a343647f900e5.png",
-    "static/media/Rectangle.png": "/betonw-client/static/media/Rectangle.aeca836aaa1b395a59d9.png",
-    "static/media/city.png": "/betonw-client/static/media/city.610c25fbf612b618e00b.png",
-    "static/media/icon-whatsapp.png": "/betonw-client/static/media/icon-whatsapp.5fc400c4b153fc178ad7.png",
-    "static/media/icon-telegram.png": "/betonw-client/static/media/icon-telegram.e9722f26cc228e817986.png",
-    "index.html": "/betonw-client/index.html",
-    "main.e9428207.css.map": "/betonw-client/static/css/main.e9428207.css.map",
-    "main.cc0d8f81.js.map": "/betonw-client/static/js/main.cc0d8f81.js.map"
+    "main.css": "/static/css/main.de356dbe.css",
+    "main.js": "/static/js/main.cb5fb334.js",
+    "static/media/photo3.jpg": "/static/media/photo3.6dc65da748e7f158e168.jpg",
+    "static/media/photo1.jpg": "/static/media/photo1.9bdb7761abb4d9c256bb.jpg",
+    "static/media/photo2.jpg": "/static/media/photo2.f253070b8c0158ede37c.jpg",
+    "static/media/photo4.jpg": "/static/media/photo4.7292f69c293a1d2cc28e.jpg",
+    "static/media/photo6.png": "/static/media/photo6.94158f5a343647f900e5.png",
+    "static/media/Rectangle.png": "/static/media/Rectangle.aeca836aaa1b395a59d9.png",
+    "static/media/city.png": "/static/media/city.610c25fbf612b618e00b.png",
+    "static/media/icon-whatsapp.png": "/static/media/icon-whatsapp.5fc400c4b153fc178ad7.png",
+    "static/media/icon-telegram.png": "/static/media/icon-telegram.e9722f26cc228e817986.png",
+    "index.html": "/index.html",
+    "main.de356dbe.css.map": "/static/css/main.de356dbe.css.map",
+    "main.cb5fb334.js.map": "/static/js/main.cb5fb334.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9428207.css",
-    "static/js/main.cc0d8f81.js"
+    "static/css/main.de356dbe.css",
+    "static/js/main.cb5fb334.js"
   ]
 }
