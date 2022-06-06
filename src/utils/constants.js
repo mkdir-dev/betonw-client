@@ -55,7 +55,7 @@ export const contactInfo = {
   tel: '+7 (953) 385 6934',
   telLink: 'tel:+79533856934',
   telegram: 'https://t.me/+79533856934',
-  whatsapp: 'https://wa.me/9533856934',
+  whatsapp: 'https://wa.me/+9533856934',
   mail: 'beton-w@mail.ru',
   mailLink: 'mailto:beton-w@mail.ru',
 };
